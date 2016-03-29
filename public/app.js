@@ -57,7 +57,7 @@ window.onload = function(){
 
           countries.forEach(function(country){
                   if (chosenCountry === country.name){
-                    li.innerText = (country.name + " Population: " + country.population + " Capital: " + country.capital);
+                    li.innerText = ("Country:  " + country.name + " Population:  " + country.population + " Capital:  " + country.capital);
                   
           var selectedInfo = document.getElementById('selectedCountryInfo');
           selectedInfo.appendChild(li);
