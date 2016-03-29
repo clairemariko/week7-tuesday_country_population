@@ -1,3 +1,16 @@
+header{
+  text-align: center;
+  font-size: 38px;
+}
+
+p.intro{
+  font-size: 28px;
+}
+
+
+
+
+
 body{
   background-image: url("../images/atlas.jpeg");
   background-size: cover;
